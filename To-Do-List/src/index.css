@@ -1,0 +1,120 @@
+body{
+  height: 100vh;
+  align-items: center;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .2s ease;
+
+
+}
+div{
+  text-align: center;
+  /* margin-top: 100px; */
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: .2s ease;
+
+}
+.list{
+  background-color: hsl(0, 0%, 72%);
+  border: 1px solid;
+  border-color: hsl(0, 0%, 60%); 
+  margin: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: -5px;
+  transition: .2s ease;
+
+}
+.text{
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 25px;
+}
+span button{
+  text-align: center;
+  justify-content: space-between;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.buttons{
+  margin-left: 30px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.delete{
+  background-color: hsl(0, 84%, 52%);
+  color: black;
+  transition: .2s ease;
+
+}
+.upper{
+  background-color: rgb(8, 178, 211);
+  transition: .2s ease;
+
+}
+.down{
+  background-color: rgb(8, 178, 211);
+  transition: .2s ease;
+
+}
+input[type="text"]{
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.add{
+  background-color: hsl(120, 81%, 61%);
+  outline: none;
+  border: none;
+  padding: 7px;
+  border-radius: 5px;
+  text-align: center;
+  transition: .2s ease;
+}
+#adds{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.add:hover{
+  background-color: hsl(120, 51%, 51%);
+
+}
+.down:hover{
+  background-color: hsl(190, 93%, 23%);
+
+}
+.upper:hover{
+  background-color: hsl(190, 93%, 23%);
+
+}
+.whole{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
